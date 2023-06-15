@@ -4,6 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import Backendless from "backendless";
+
+Backendless.serverURL = "https://api.backendless.com";
+Backendless.initApp('7B31A8E3-8458-32C6-FF76-8E255EC2A200', '5796BBB4-5C71-4A34-93E1-E2E1EF3442F1');
+
 ReactDOM.render(
     <App/>,
     document.getElementById('root')
